@@ -47,7 +47,7 @@ export const SERVICES = [
     title: "Destination Weddings",
     icon: "MapPin",
     bullets: [
-      "All-India &amp; international travel",
+      "All-India & international travel",
       "Multi-day coverage options",
       "On-ground production support",
     ],
