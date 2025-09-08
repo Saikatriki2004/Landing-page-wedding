@@ -65,7 +65,7 @@ export const GALLERY = [
   { url: "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Traditions", caption: "Colors of celebration" },
   { url: "https://images.pexels.com/photos/730055/pexels-photo-730055.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Vows", caption: "Forever begins" },
   { url: "https://images.pexels.com/photos/30889688/pexels-photo-30889688.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Dance", caption: "Joy in motion" },
-  { url: "https://images.pexels.com/photos/33343605/pexels-photo-33343605.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600", title: "Performance", caption: "Lights and rhythm" },
+  { url: "https://images.pexels.com/photos/33343605/pexels-photo-33343605.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Performance", caption: "Lights and rhythm" },
   { url: "https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&amp;fit=crop&amp;w=1600&amp;q=80", title: "Mandap", caption: "A sacred circle" },
 ];
 
