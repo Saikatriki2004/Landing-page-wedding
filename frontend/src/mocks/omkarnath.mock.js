@@ -105,6 +105,6 @@ export const PRICING = [
 export const CONTACT = {
   phone: "+91 98765 43210",
   email: "bookings@omkarnath.studio",
-  location: "Available across India &amp; destinations",
+  location: "Available across India & destinations",
   instagram: "https://instagram.com/",
 };
