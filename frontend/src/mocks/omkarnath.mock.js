@@ -31,7 +31,7 @@ export const SERVICES = [
     bullets: [
       "Highlight film (3–6 mins)",
       "Full ceremony & speeches edit",
-      "Licensed music &amp; sound design",
+      "Licensed music & sound design",
     ],
   },
   {
@@ -67,6 +67,17 @@ export const GALLERY = [
   { url: "https://images.pexels.com/photos/30889688/pexels-photo-30889688.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Dance", caption: "Joy in motion" },
   { url: "https://images.pexels.com/photos/33343605/pexels-photo-33343605.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Performance", caption: "Lights and rhythm" },
   { url: "https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&fit=crop&w=1600&q=80", title: "Mandap", caption: "A sacred circle" },
+  // New additions for richer variety
+  { url: "https://images.unsplash.com/photo-1709979773998-2655b3dfa124?auto=format&fit=crop&w=1600&q=80", title: "Bridal Portrait", caption: "Regal in red" },
+  { url: "https://images.unsplash.com/photo-1658251367683-40189a394b40?auto=format&fit=crop&w=1600&q=80", title: "Traditional Attire", caption: "Handcrafted elegance" },
+  { url: "https://images.unsplash.com/photo-1719495851205-f4af5e4d9543?auto=format&fit=crop&w=1600&q=80", title: "Ceremonial Art", caption: "Timeless traditions" },
+  { url: "https://images.unsplash.com/photo-1640744537094-0d5b8da84b01?auto=format&fit=crop&w=1600&q=80", title: "Floral Backdrop", caption: "Fragrant vows" },
+  { url: "https://images.unsplash.com/photo-1587271339318-2e78fdf79586?auto=format&fit=crop&w=1600&q=80", title: "Haldi Blessings", caption: "Sunlit joy" },
+  { url: "https://images.unsplash.com/photo-1698298994238-9e0ae6bc498a?auto=format&fit=crop&w=1600&q=80", title: "Bridal Jewelry", caption: "Gleam of gold" },
+  { url: "https://images.unsplash.com/photo-1707248592051-4be0ecc8c204?auto=format&fit=crop&w=1600&q=80", title: "Ritual Setup", caption: "Roses and candles" },
+  { url: "https://images.unsplash.com/photo-1645856046974-d364883acbf5?auto=format&fit=crop&w=1600&q=80", title: "Attire Detail", caption: "Color and craft" },
+  { url: "https://images.pexels.com/photos/5713647/pexels-photo-5713647.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Wedding Moment I", caption: "Candid joy" },
+  { url: "https://images.pexels.com/photos/10116425/pexels-photo-10116425.jpeg?auto=compress&cs=tinysrgb&w=1600", title: "Wedding Moment II", caption: "Lit with love" },
 ];
 
 export const TESTIMONIALS = [

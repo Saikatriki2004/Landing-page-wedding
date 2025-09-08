@@ -63,6 +63,14 @@
 .fade-up { animation: fade-up .8s ease-out both; }
 .float-soft { animation: float-soft 6s ease-in-out infinite; }
 
+/**************** 3D / Coverflow ****************/
+.threeD-viewport { perspective: 1200px; }
+.tilt-3d { transform-style: preserve-3d; transition: transform .25s ease, box-shadow .25s ease; box-shadow: var(--shadow-soft); }
+.tilt-3d:hover { box-shadow: var(--shadow-elev); }
+.tilt-3d img { transform: translateZ(20px); transition: transform .25s ease; }
+.tilt-3d:hover img { transform: translateZ(26px) scale(1.02); }
+.tilt-gloss { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: overlay; background: radial-gradient(450px 220px at var(--mx,50%) var(--my,50%), rgba(255,255,255,.22), transparent 55%); }
+
 /**************** Utilities ****************/
 .hr-soft { height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.15), transparent); border: 0; }
 .badge-gold { display: inline-flex; align-items: center; gap: 8px; background: rgba(199,163,24,0.12); color: var(--omk-gold); border: 1px solid rgba(199,163,24,0.35); padding: 6px 10px; border-radius: 999px; font-weight: 600; }

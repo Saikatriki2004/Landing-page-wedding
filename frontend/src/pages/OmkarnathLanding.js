@@ -14,6 +14,28 @@ import "../styles/artworld.css";
 
 const ICONS = { Camera, Film, Heart, MapPin };
 
+function TiltButton({ children, className = "", ...props }) {
+  const ref = useRef(null);
+  const [style, setStyle] = useState({});
+  const onMove = (e) => {
+    const el = ref.current;
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width; // 0..1
+    const py = (e.clientY - r.top) / r.height; // 0..1
+    const rx = (0.5 - py) * 12; // deg
+    const ry = (px - 0.5) * 12; // deg
+    setStyle({ transform: `rotateX(${rx}deg) rotateY(${ry}deg) translateZ(12px)`, "--mx": `${px * 100}%`, "--my": `${py * 100}%` });
+  };
+  const onLeave = () => setStyle({ transform: "rotateX(0deg) rotateY(0deg) translateZ(0px)" });
+  return (
+    <button ref={ref} onMouseMove={onMove} onMouseLeave={onLeave} className={`tilt-3d img-frame block w-full overflow-hidden group will-change-transform ${className}`} style={style} {...props}>
+      {children}
+      <span className="tilt-gloss" />
+    </button>
+  );
+}
+
 export default function OmkarnathLanding() {
   const refs = {
     about: useRef(null),
@@ -50,7 +72,7 @@ export default function OmkarnathLanding() {
     return <I size={22} className="text-[color:var(--omk-gold)]" />;
   };
 
-  const galleryThumbs = useMemo(() => GALLERY.slice(0, 12), []);
+  const galleryThumbs = useMemo(() => GALLERY, []);
 
   return (
     <div className="min-h-screen bg-[color:var(--omk-charcoal)] text-[color:var(--omk-ivory)] font-sans">
@@ -160,19 +182,19 @@ export default function OmkarnathLanding() {
       </section>
 
       {/* Gallery */}
-      <section ref={refs.gallery} id="gallery" className="section-spacing container-art">
+      <section ref={refs.gallery} id="gallery" className="section-spacing container-art threeD-viewport">
         <div className="eyebrow mb-2">Gallery</div>
         <h2 className="section-title mb-6">Highlights</h2>
         <Carousel>
           <CarouselContent>
             {galleryThumbs.map((g, idx) => (
               <CarouselItem key={g.url} className="basis-11/12 md:basis-1/2 lg:basis-1/3 p-2">
-                <button
+                <TiltButton
                   onClick={() => { setActiveIndex(idx); setLightboxOpen(true); }}
-                  className="img-frame block w-full overflow-hidden group"
+                  aria-label={`Open ${g.title}`}
                 >
                   <img src={g.url} alt={g.title} className="w-full h-64 md:h-72 object-cover transition-transform duration-300 group-hover:scale-[1.03]" />
-                </button>
+                </TiltButton>
                 <div className="flex items-center justify-between mt-2 caption">
                   <div>{g.title}</div>
                   <div className="text-[color:var(--omk-gold)]">{g.caption}</div>
