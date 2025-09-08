@@ -35,7 +35,7 @@ export const SERVICES = [
     ],
   },
   {
-    title: "Pre-wedding &amp; Save-the-Date",
+    title: "Pre-wedding & Save-the-Date",
     icon: "Heart",
     bullets: [
       "Concept, styling &amp; location scouting",
