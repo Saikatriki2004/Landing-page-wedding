@@ -30,7 +30,7 @@ export const SERVICES = [
     icon: "Film",
     bullets: [
       "Highlight film (3–6 mins)",
-      "Full ceremony &amp; speeches edit",
+      "Full ceremony & speeches edit",
       "Licensed music &amp; sound design",
     ],
   },
