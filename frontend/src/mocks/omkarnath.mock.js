@@ -79,7 +79,7 @@ export const TESTIMONIALS = [
     quote: "Cinematic yet intimate. Our families cried watching the highlight film. Best decision we made.",
   },
   {
-    name: "Kabir &amp; Meera",
+    name: "Kabir & Meera",
     quote: "Professional, warm, and unbelievably creative. The photos look like magazine editorials—yet they feel like us.",
   },
 ];
