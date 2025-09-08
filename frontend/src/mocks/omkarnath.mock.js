@@ -40,7 +40,7 @@ export const SERVICES = [
     bullets: [
       "Concept, styling & location scouting",
       "Short teaser for social media",
-      "Wardrobe &amp; pose guidance",
+      "Wardrobe & pose guidance",
     ],
   },
   {
