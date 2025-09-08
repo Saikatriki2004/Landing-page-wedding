@@ -79,7 +79,7 @@ export default function OmkarnathLanding() {
         <div className="hero-overlay" />
         <div className="container-art hero-content">
           <div className="max-w-2xl glass-card p-6 md:p-8">
-            <div className="eyebrow mb-2">Wedding Photography &amp; Cinematography</div>
+            <div className="eyebrow mb-2">Wedding Photography & Cinematography</div>
             <h1 className="hero-title mb-4">OMKARNATH</h1>
             <p className="body-text mb-6">{TAGLINE}</p>
             <div className="flex flex-wrap gap-3">
