@@ -61,7 +61,7 @@ export const GALLERY = [
   { url: "https://images.unsplash.com/photo-1645264090488-a019de493023?auto=format&fit=crop&w=1600&q=80", title: "Sangeet", caption: "Dancing hearts" },
   { url: "https://images.unsplash.com/photo-1666916990615-51537445e50b?auto=format&fit=crop&w=1600&q=80", title: "Ceremony", caption: "Moments that matter" },
   { url: "https://images.unsplash.com/photo-1666916990621-88c594bdc84e?auto=format&fit=crop&w=1600&q=80", title: "Blessings", caption: "Hands of devotion" },
-  { url: "https://images.unsplash.com/photo-1666916991821-d594c8fceaff?auto=format&amp;fit=crop&amp;w=1600&amp;q=80", title: "Togetherness", caption: "Family traditions" },
+  { url: "https://images.unsplash.com/photo-1666916991821-d594c8fceaff?auto=format&fit=crop&w=1600&q=80", title: "Togetherness", caption: "Family traditions" },
   { url: "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600", title: "Traditions", caption: "Colors of celebration" },
   { url: "https://images.pexels.com/photos/730055/pexels-photo-730055.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600", title: "Vows", caption: "Forever begins" },
   { url: "https://images.pexels.com/photos/30889688/pexels-photo-30889688.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600", title: "Dance", caption: "Joy in motion" },
