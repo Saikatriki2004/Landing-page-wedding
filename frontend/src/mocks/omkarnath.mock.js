@@ -75,7 +75,7 @@ export const TESTIMONIALS = [
     quote: "Every frame feels alive. They captured the chaos, the calm, and every stolen glance—exactly how we lived it.",
   },
   {
-    name: "Raghav &amp; Priya",
+    name: "Raghav & Priya",
     quote: "Cinematic yet intimate. Our families cried watching the highlight film. Best decision we made.",
   },
   {
