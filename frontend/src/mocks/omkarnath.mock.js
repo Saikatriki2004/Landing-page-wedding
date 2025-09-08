@@ -57,7 +57,7 @@ export const SERVICES = [
 export const GALLERY = [
   { url: "https://images.unsplash.com/photo-1597157639073-69284dc0fdaf?auto=format&fit=crop&w=1600&q=80", title: "Sacred Rituals", caption: "A promise sealed in tradition" },
   { url: "https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?auto=format&fit=crop&w=1600&q=80", title: "Mehndi", caption: "Stories etched in henna" },
-  { url: "https://images.unsplash.com/flagged/photo-1572534779127-b64758946728?auto=format&amp;fit=crop&amp;w=1600&amp;q=80", title: "Bridal Grace", caption: "Elegance in red" },
+  { url: "https://images.unsplash.com/flagged/photo-1572534779127-b64758946728?auto=format&fit=crop&w=1600&q=80", title: "Bridal Grace", caption: "Elegance in red" },
   { url: "https://images.unsplash.com/photo-1645264090488-a019de493023?auto=format&amp;fit=crop&amp;w=1600&amp;q=80", title: "Sangeet", caption: "Dancing hearts" },
   { url: "https://images.unsplash.com/photo-1666916990615-51537445e50b?auto=format&amp;fit=crop&amp;w=1600&amp;q=80", title: "Ceremony", caption: "Moments that matter" },
   { url: "https://images.unsplash.com/photo-1666916990621-88c594bdc84e?auto=format&amp;fit=crop&amp;w=1600&amp;q=80", title: "Blessings", caption: "Hands of devotion" },
