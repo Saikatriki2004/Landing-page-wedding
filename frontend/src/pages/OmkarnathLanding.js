@@ -203,7 +203,7 @@ export default function OmkarnathLanding() {
           <div className="eyebrow mb-2">Testimonials</div>
           <h2 className="section-title mb-8">Words from our couples</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {GALLERY.length &gt; 0 &amp;&amp; [0,1,2].map((i) => (
+            {GALLERY.length > 0 &amp;&amp; [0,1,2].map((i) => (
               <Card key={i} className="glass-card p-6">
                 <div className="flex items-center gap-2 mb-3">
                   {[...Array(5)].map((_, idx) => (
