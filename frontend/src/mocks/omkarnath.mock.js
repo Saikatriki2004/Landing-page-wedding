@@ -1,4 +1,4 @@
-export const HERO_IMAGE = "https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&amp;fit=crop&amp;w=1800&amp;q=80";
+export const HERO_IMAGE = "https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&fit=crop&w=1800&q=80";
 
 export const NAV_LINKS = [
   { key: "about", label: "About" },
