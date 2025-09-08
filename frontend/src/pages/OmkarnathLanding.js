@@ -111,7 +111,7 @@ export default function OmkarnathLanding() {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
-                <AccordionTrigger>Reliable &amp; unobtrusive crew</AccordionTrigger>
+                <AccordionTrigger>Reliable & unobtrusive crew</AccordionTrigger>
                 <AccordionContent>
                   A seasoned team that blends in, anticipates moments, and supports your planner.
                 </AccordionContent>
