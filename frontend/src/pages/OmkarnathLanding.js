@@ -211,7 +211,7 @@ export default function OmkarnathLanding() {
                   ))}
                 </div>
                 <p className="body-text mb-4">“{i === 0 ? "Every frame feels alive. They captured the chaos, the calm, and every stolen glance—exactly how we lived it." : i === 1 ? "Cinematic yet intimate. Our families cried watching the highlight film. Best decision we made." : "Professional, warm, and unbelievably creative. The photos look like magazine editorials—yet they feel like us."}”</p>
-                <div className="caption">{i === 0 ? "Aarav &amp; Ananya" : i === 1 ? "Raghav &amp; Priya" : "Kabir &amp; Meera"}</div>
+                <div className="caption">{i === 0 ? "Aarav & Ananya" : i === 1 ? "Raghav & Priya" : "Kabir & Meera"}</div>
               </Card>
             ))}
           </div>
