@@ -71,7 +71,7 @@ export const GALLERY = [
 
 export const TESTIMONIALS = [
   {
-    name: "Aarav &amp; Ananya",
+    name: "Aarav & Ananya",
     quote: "Every frame feels alive. They captured the chaos, the calm, and every stolen glance—exactly how we lived it.",
   },
   {
